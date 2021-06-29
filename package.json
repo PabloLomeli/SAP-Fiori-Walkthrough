@@ -9,12 +9,12 @@
     "node": "16.4.0"
   },
   "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "ejs": "3.1.6",
+    "express": "4.17.1"
   },
   "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "request": "2.88.2",
+    "tape": "5.2.2"
   },
   "keywords": [],
   "author": "",
