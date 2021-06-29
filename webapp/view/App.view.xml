@@ -1,0 +1,18 @@
+<!-- Bring in text control, and SAP MVC Assets-->
+<mvc:View
+    controllerName="sap.ui.demo/walkthrough.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+
+
+    <!-- These come from sap.m library -->
+    <Button 
+        text="{i18n>showHelloButtonText}"
+        press=".onShowHello" /> <!-- referencing i18n.properties file for 'text' field -->
+
+    <Input 
+        value="{/recipient/name}"
+        description="Hello {/recipient/name}"
+        valueLiveUpdate="true"
+        width="60%" />
+</mvc:View>
