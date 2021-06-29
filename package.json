@@ -1,17 +1,12 @@
 {
   "name": "sap-ui5-walkthrough",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "16.4.0"
-  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.4.0"
   },
   "dependencies": {
     "ejs": "^2.5.7",
@@ -23,5 +18,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloLomeli/SAP-Fiori-Walkthrough.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PabloLomeli/SAP-Fiori-Walkthrough/issues"
+  },
+  "homepage": "https://github.com/PabloLomeli/SAP-Fiori-Walkthrough#readme",
+  "description": ""
 }
