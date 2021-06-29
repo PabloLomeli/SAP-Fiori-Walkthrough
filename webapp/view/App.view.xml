@@ -5,11 +5,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true">
 
-    <!-- These come from sap.m library -->
-    <Button 
-        text="{i18n>showHelloButtonText}"
-        press=".onShowHello" 
-    /> 
+    
     <!-- referencing i18n.properties file for 'text' field -->
     <App>
         <pages>
@@ -17,6 +13,11 @@
                 <content>
                     <Panel headerText="{i18n>helloPanelTitle}">
                         <content>
+                            <!-- These come from sap.m library -->
+                            <Button 
+                                text="{i18n>showHelloButtonText}"
+                                press=".onShowHello" 
+                            /> 
                             <Input 
                                 value="{/recipient/name}"
                                 description="Hello {/recipient/name}"
