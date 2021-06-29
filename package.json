@@ -13,14 +13,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.16.2"
-  },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC"
