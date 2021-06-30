@@ -8,6 +8,13 @@
         class="sapUiResponsiveMargin"
         width="auto">
         <content>
+
+            <Button
+                id="helloDialogButton"
+                text="{i18n>OpenDialogButtonText}"
+                press=".onOpenDialog"
+                class="sapUiSmallMarginEnd" />
+
             <!-- These come from sap.m library / sidenote: sapUi styles very case sensitive -->
             <Button 
                 text="{i18n>showHelloButtonText}"
